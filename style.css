@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    background-image:url('pink.avif');
+}
+header{
+    border-radius: 5px; 
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(255, 154, 154);
+}
+nav a{
+    text-decoration:none;
+    font-size:large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 15px;
+    color:rgb(255, 255, 255);
+    float:right;
+}
+nav a:hover{
+    text-shadow: 0px 0px 5px rgb(255, 12, 113);
+    transition: 0.5s;
+    background-color: rgb(255, 187, 187);
+}
+.banner{
+    text-shadow: 0px 0px 5px rgba(255, 25, 94, 0.733);
+    padding: 10px 15px;
+    font-family:'Cute', sans-serif;
+    font-size:xx-large;
+    color: rgb(255, 254, 254)
+}
